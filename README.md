@@ -13,3 +13,9 @@ The training set will consist of audio samples of two instruments simultaneously
 > <cs419_report.pdf> => This pdf contains the comparative study of all methods with full description of mathematics involved
 
 > <overlay_sound_code> => Folder has code for generating multi-instrument overlaid sound files and code to detect the instrument being played in them.
+
+
+#### Conclusion
+The metric used for evaluating all the models is Accuracy which gives the ratio of total number of correct predictions to the total number of datapoints for which predictions have been made. Thus, from the above table, we conclude that Random Forest Classifier gives comparatively the best results. On the other hand, Logistic Regression and Linear Discriminant Analysis are seen to be poorly performing on the data.
+![image](https://github.com/lyrickhare/CS419_Ins_cla/assets/80460792/510b2a2c-94eb-4381-98c1-66855fa48e26)
+
